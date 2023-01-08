@@ -56,7 +56,7 @@ namespace MyFirstWebApplication.Models
         public void Delete (DateTime date)
        
         {
-            int itemToRemove = 0;
+            int itemToRemove = -1;
             foreach (WeatherForecast weatherForecast in _list)
             {
                 itemToRemove = itemToRemove + 1;
